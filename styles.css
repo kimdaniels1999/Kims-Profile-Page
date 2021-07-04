@@ -157,30 +157,11 @@ p:hover {
 @media (max-width: 768px) {
     nav {
         float: center;
-        overflow: hidden;
-        background-color: none;
-        }
-    p {
-        font-size: 1.5rem;
     }
-
-    button {
-        display: flex;
-        justify-content: center;
+    div.header {
+        padding: 1.5rem;
     }
-
 }
-
 /* Large devices (laptop or desktop, 992px and up) */
-@media (min-width: 992px) {
-    /* .footer-img {
-    display: none;
-    } */
-    h1 {
-        margin: 2rem;
-    }
-    p {
-        font-size: 2rem;
-    }
-}
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
