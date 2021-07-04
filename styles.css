@@ -159,9 +159,10 @@ p:hover {
 
 @media (max-width: 768px) {
     nav {
-        float: none;
-     }
-    #kim-img {
-        margin: 3.2rem;
+        float: center;
+    }
+    div.header {
+        padding: 1.5rem;
     }
 }
+
