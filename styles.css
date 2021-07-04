@@ -144,7 +144,7 @@ p:hover {
         overflow: hidden;
     }
     a {
-       color: #fb7afc;
+       /* color: #fb7afc; */
     }
     .small {
         display: none;
@@ -166,3 +166,69 @@ p:hover {
     }
 }
 
+@media (max-width: 425px) {
+    body {
+        margin: 1.5rem;
+        padding: 1.5rem;
+    }
+    header {
+        margin: 0.5rem;
+        padding: 0.5rem;
+    }
+    nav {
+        margin: 0.5rem;
+        float: center;
+        display: flex;
+        justify-content: flex-start;
+        background-color: transparent;
+        }
+    a {
+       font-size: 0.8rem;
+       padding: none;
+    }
+    section {
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    #topics {
+        font-size: 2rem;
+        margin: 0.5rem;
+        text-align: center;
+    }
+
+    p {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+    div {
+        margin: 1.5rem;
+        padding: 1.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    ul {
+        padding-left: 0.5rem;
+    }
+    li {
+        font-size: 1rem;
+    } 
+
+    .small {
+        display: none;
+    }
+    
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 2.5rem;
+    }
+}
