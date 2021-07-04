@@ -1,5 +1,5 @@
 * {
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 html {
     background-color: #f7dbf0;
@@ -21,6 +21,8 @@ header {
 .header {
     padding: 1rem;
     margin: 0.5rem;
+    display: flex;
+    justify-content: left;
 }
 
 nav {
@@ -37,7 +39,7 @@ a {
     padding: 0.9rem;
     text-decoration: none;
     padding-top: 1.5rem;
-    font-weight: bolder;
+    font-size: 1.5rem;
 }
 
 a:hover {
@@ -45,7 +47,7 @@ a:hover {
 }
 
 h1 {
-    font-size: 90px;
+    font-size: 4rem;
     line-height: 1.2em;
     color: #cdf0ea;
     margin: 0.5rem;
@@ -62,7 +64,7 @@ h2 {
 }
 
 p {
-    font-size: 1.5rem;
+    font-size: 2rem;
     line-height: 2.3rem;
     letter-spacing: 1.5px;
     color: #f9f9f9;
@@ -105,6 +107,11 @@ footer {
     justify-content: center;
 }
 
+#kim-img {
+    border-radius: 50px;
+    margin: 1rem;
+}
+
 p:hover {
     background-color: #6930c3;
 }
@@ -142,9 +149,6 @@ p:hover {
     .small {
         display: none;
     }
-    h1 {
-        font-size: 4rem;
-    }
 }
 
 @media (min-width: 601px) {
@@ -153,34 +157,11 @@ p:hover {
         }
 }
 
-/* Medium devices (landscape tables, 768px and up) */
 @media (max-width: 768px) {
     nav {
-        float: center;
-        overflow: hidden;
-        background-color: none;
-        }
-    p {
-        font-size: 1.5rem;
-    }
-
-    button {
-        display: flex;
-        justify-content: center;
-    }
-
-}
-
-/* Large devices (laptop or desktop, 992px and up) */
-@media (min-width: 992px) {
-    /* .footer-img {
-    display: none;
-    } */
-    h1 {
-        margin: 2rem;
-    }
-    p {
-        font-size: 2rem;
+        float: none;
+     }
+    #kim-img {
+        margin: 3.2rem;
     }
 }
-/* Extra large devices (large laptops and desktops, 1200px and up) */
