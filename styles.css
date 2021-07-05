@@ -57,6 +57,12 @@ h2 {
     margin: 1.5rem;
     letter-spacing: 3px;
 }
+h3 {
+    font-size: 25px;
+    letter-spacing: 2px;
+    color:lightblue;
+    margin: 1.5rem;
+}
 
 p {
     font-size: 2rem;
@@ -117,6 +123,19 @@ footer {
     display: flex;
     justify-content: center;
 }
+.small:hover {
+    position: relative;
+    top: -25px;
+    left: -35px;
+
+}
+.examples {
+    height: 10em;
+    width: 10em;
+    display: inline-flex;
+    margin: 0 auto;
+    padding: 1rem;
+}
 
 #kim-img {
     border-radius: 50px;
@@ -128,6 +147,9 @@ h1:hover {
 }
 h2:hover {
     color: #66de93;
+}
+h3:hover {
+    color: #fff;
 }
 label:hover {
     color: #66de93;
