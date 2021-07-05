@@ -16,13 +16,8 @@ body {
 header {
     padding: 2rem;
     margin: 1.5rem;
-}
-
-.header {
-    padding: 1rem;
-    margin: 0.5rem;
     display: flex;
-    justify-content: left;
+    justify-content: flex-end;
 }
 
 nav {
@@ -96,6 +91,14 @@ footer {
     padding: 1rem;
 }
 
+#about-header {
+    display: flex;
+    justify-content: left;
+    width: 50%;
+    padding: 1rem;
+    margin: none;
+}
+
 #topics {
     font-size: 30px;
     letter-spacing: 5px;
@@ -110,6 +113,7 @@ footer {
 #kim-img {
     border-radius: 50px;
     margin: 1rem;
+    padding: 1rem;
 }
 
 p:hover {
@@ -128,6 +132,21 @@ p:hover {
     border: none;
     border-radius: 25px;
     padding: 0.2rem;
+    width: 100%;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 5px 10px;
+}
+
+.header {
+    padding: 1rem;
+    margin: 0 auto;
+    display: block;
+    width: 40%;
 }
 
 .footer-img {
@@ -149,6 +168,9 @@ p:hover {
     .small {
         display: none;
     }
+    .header {
+        width: fit-content;
+    }
 }
 
 @media (min-width: 601px) {
@@ -161,12 +183,9 @@ p:hover {
     nav {
         float: center;
     }
-    /* header {
-        padding: 1rem;
-        margin: 1rem;
-    } */
+
     h1 {
-        padding: 2rem;
+        padding: 1.5rem;
     }
 }
 
@@ -187,14 +206,19 @@ p:hover {
         background-color: transparent;
         }
     a {
-       font-size: 0.8rem;
+       font-size: 1rem;
        padding: none;
     }
     section {
         margin: 0.5rem;
         padding: 0.5rem;
     }
-
+    #about-header {
+        width: fit-content;
+    }
+    .header {
+        width: fit-content;
+    }
     h1 {
         font-size: 3rem;
         text-align: center;
@@ -208,12 +232,10 @@ p:hover {
         margin: 0.5rem;
         text-align: center;
     }
-
     p {
         font-size: 1.3rem;
         line-height: 2rem;
     }
-
     p.blog-font {
         font-size: 1rem;
     }
@@ -230,7 +252,6 @@ p:hover {
     li {
         font-size: 1rem;
     } 
-
     .small {
         display: none;
     }
