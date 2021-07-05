@@ -144,7 +144,7 @@ p:hover {
         overflow: hidden;
     }
     a {
-       /* color: #fb7afc; */
+       color: #fb7afc;
     }
     .small {
         display: none;
@@ -161,8 +161,12 @@ p:hover {
     nav {
         float: center;
     }
-    div.header {
-        padding: 1.5rem;
+    /* header {
+        padding: 1rem;
+        margin: 1rem;
+    } */
+    h1 {
+        padding: 2rem;
     }
 }
 
@@ -187,12 +191,14 @@ p:hover {
        padding: none;
     }
     section {
-        margin: 1rem;
-        padding: 1rem;
+        margin: 0.5rem;
+        padding: 0.5rem;
     }
 
     h1 {
         font-size: 3rem;
+        text-align: center;
+        padding: 1rem;
     }
     h2 {
         font-size: 2rem;
@@ -204,12 +210,16 @@ p:hover {
     }
 
     p {
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+
+    p.blog-font {
         font-size: 1rem;
-        line-height: 1rem;
     }
     div {
-        margin: 1.5rem;
-        padding: 1.5rem;
+        margin: 0.8rem;
+        padding: 0.5rem;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
