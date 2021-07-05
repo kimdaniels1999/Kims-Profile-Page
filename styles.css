@@ -81,6 +81,14 @@ button {
     padding: 0.8rem;
     border-radius: 18px;
 }
+button:hover {
+    border-color: #11998e;
+    background: #11998e;
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
+    background-color: white;
+    font-weight: bold;
+    color: #11998e;
+}
 
 footer {
     color: #f7dbf0;
@@ -115,11 +123,25 @@ footer {
     margin: 1rem;
     padding: 1rem;
 }
-
+h1:hover {
+    color: #df5e5e;
+}
+h2:hover {
+    color: #66de93;
+}
+label:hover {
+    color: #66de93;
+}
 p:hover {
     background-color: #6930c3;
 }
+footer:hover {
+    color: #66de93;
+}
+li:hover {
+    color: #df5e5e;
 
+}
 .blog-font {
     font-size: 1.5rem;
     line-height: 1.5rem;
